@@ -1,6 +1,6 @@
 # Aula Banco de dados
 
-#Instal MySQL Linux
+<b>Instal MySQL Linux</b>
 
 sudo apt update</br>
 
@@ -11,6 +11,6 @@ sudo systemctl start mysql.service</br>
 Connect to Mysql:</br>
 sudo mysql -u root -p
 </br></br>
-#Instal MySQL Windows
+<b>Instal MySQL Windows</b>
 
 https://www.mysqltutorial.org/install-mysql/
