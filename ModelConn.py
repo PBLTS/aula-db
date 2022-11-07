@@ -18,7 +18,7 @@ mysql = MySQL(app)
         nome = 'Alexandre'
         email = 'aaaa@aaaa.com'
         cursor = mysql.connection.cursor()
-        cursor.execute(''' INSERT INTO info_table VALUES(%s,%s)''',(nome,email))
+        cursor.execute(''' INSERT INTO clientes VALUES(%s,%s)''',(nome,email))
         mysql.connection.commit()
         cursor.close()
 
