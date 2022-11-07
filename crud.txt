@@ -1,0 +1,19 @@
+#selecionar dados
+
+SELECT * FROM fornecedores;
+
+
+#Inserir dados
+
+INSERT INTO fornecedores(codigo, nome, email) VALUES (null, “Ricardo”, “ricoarrigoni@gmail.com”) ;
+INSERT INTO fornecedores(codigo, nome, email) VALUES (null, “João”, “joao@gmail.com”) ;
+INSERT INTO fornecedores(codigo, nome, email) VALUES (null, “Maria”, “maria@gmail.com”) ;
+
+#Atualizar dados
+
+UPDATE fornecedores SET nome=”Ricardo Arrigoni” WHERE codigo=1;
+
+#Deletar dados
+
+DELETE FROM fornecedores WHERE codigo=3;
+
