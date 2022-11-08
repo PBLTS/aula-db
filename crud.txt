@@ -18,5 +18,5 @@ UPDATE clientes SET nome="Ricardo Arrigoni" WHERE codigo=1;
 DELETE FROM clientes WHERE codigo=3;
 
 ALTER TABLE clientes
-ADD telefone varchar(255);
+ADD telefone varchar(30);
 
