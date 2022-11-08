@@ -5,13 +5,13 @@ SELECT * FROM clientes;
 
 #Inserir dados
 
-INSERT INTO clientes(codigo, nome, email) VALUES (null, “Ricardo”, “ricoarrigoni@gmail.com”) ;
-INSERT INTO clientes(codigo, nome, email) VALUES (null, “João”, “joao@gmail.com”) ;
-INSERT INTO clientes(codigo, nome, email) VALUES (null, “Maria”, “maria@gmail.com”) ;
+INSERT INTO clientes(codigo, nome, email) VALUES (null, "Ricardo", "ricoarrigoni@gmail.com") ;
+INSERT INTO clientes(codigo, nome, email) VALUES (null, "João", "joao@gmail.com") ;
+INSERT INTO clientes(codigo, nome, email) VALUES (null, "Maria", "maria@gmail.com") ;
 
 #Atualizar dados
 
-UPDATE clientes SET nome=”Ricardo Arrigoni” WHERE codigo=1;
+UPDATE clientes SET nome="Ricardo Arrigoni" WHERE codigo=1;
 
 #Deletar dados
 
